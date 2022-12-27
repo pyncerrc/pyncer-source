@@ -54,14 +54,14 @@ class SourceDirector implements SourceDirectorInterface
 
         return false;
     }
-    public function getSources(): iterable
+    public function getSourceNames(): iterable
     {
         $sources = [];
 
         foreach ($this->sourcers as $sourcer) {
             $sources = array_merge(
                 $sources,
-                pyncer_ensure_array($sourcer->getSources())
+                pyncer_ensure_array($sourcer->getSourceNames())
             );
         }
 

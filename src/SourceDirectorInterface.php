@@ -14,7 +14,7 @@ interface SourceDirectorInterface
     public function getSourcerNames(): iterable;
 
     public function hasSource(string $sourceName): bool;
-    public function getSources(): iterable;
+    public function getSourceNames(): iterable;
 
     public function has(
         string $key,

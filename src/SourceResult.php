@@ -16,7 +16,7 @@ class SourceResult
 
     public function getSourcerName(): ?string
     {
-        return $this->SourcerName;
+        return $this->sourcerName;
     }
 
     public function getSourceName(): ?string
