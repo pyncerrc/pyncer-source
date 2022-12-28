@@ -6,9 +6,9 @@
     "license": "Unlicense",
     "require": {
         "php": ">=8.1",
-        "pyncer/core": "*",
+        "pyncer/core": "^1.0",
         "pyncer/exception": "^1.0",
-        "pyncer/iterable": "*"
+        "pyncer/iterable": "^1.0"
     },
     "autoload": {
         "psr-4": {
